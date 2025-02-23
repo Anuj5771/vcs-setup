@@ -111,11 +111,10 @@ Follow these steps to generate a Personal Access Token (PAT) on GitHub:
 
 ![image](https://github.com/user-attachments/assets/ab8b66e5-39b8-4541-a54d-162ac40b018c)
 ![image](https://github.com/user-attachments/assets/9dd873b2-d5a6-4806-8416-eeb7cbecb9b0)
-![image](https://github.com/user-attachments/assets/c7d8c53a-4cf9-41c2-b6d0-8c02295c0e11)
-
+![image](https://github.com/user-attachments/assets/1aeb2a91-ce21-42fa-9b42-546042292b69)
 
 ```bash
-mkdir vcs-setup-repo
+ mkdir vcs-setup-repo
  cd vcs-setup-repo/
  echo "# vcs-setup-poc-" >> README.md
  git init
@@ -124,10 +123,10 @@ mkdir vcs-setup-repo
  git commit -m "this is my first vcs setup"
  git branch -M main
  git remote add origin https://github.com/anuj169/Zero_Downtime_Crew.git
-git remote set-url origin https://<NEW_TOKEN>@github.com/anuj169/Zero_Downtime_Crew.git
-git add .
-git commit -m "update the file"
-git push origin main
+ git remote set-url origin https://<NEW_TOKEN>@github.com/anuj169/Zero_Downtime_Crew.git
+ git add .
+ git commit -m "update the file"
+ git push origin main
 
 ```
 
