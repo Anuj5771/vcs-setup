@@ -94,6 +94,42 @@ cat id_rsa.pub
 git remote add sshorigin git@github.com:devneelesh921/vcs-setup-poc-.git
 git push sshorigin main
 ```
+## Configure Git using Token Setup
+### Generate a GitHub Personal Access Token
+
+
+# Generating a Personal Access Token (PAT) on GitHub
+
+Follow these steps to generate a Personal Access Token (PAT) on GitHub:
+
+1. **Go to GitHub Settings**
+   - Navigate to [GitHub](https://github.com/) and click on your profile picture in the top right corner.
+   - Select **Settings** from the dropdown menu.
+
+2. **Navigate to Developer Settings**
+   - Scroll down and click on **Developer settings**.
+   - Under **Personal access tokens**, click on **Tokens (classic)**.
+
+3. **Generate a New Token**
+   - Click **Generate new token (classic)**.
+   - Provide a **note** for the token (e.g., "My GitHub PAT").
+   - Set an **expiration date** (or choose "No expiration" if preferred).
+
+4. **Select Necessary Scopes**
+   - Choose the required scopes based on your needs:
+     - `repo` (Full control of private repositories)
+     - `workflow` (Access to GitHub Actions workflows)
+     - `admin:repo_hook` (Manage repository webhooks and services)
+     - Other scopes as needed
+
+5. **Generate and Copy the Token**
+   - Click **Generate token**.
+   - **Copy the token** immediately and store it securely (e.g., in a password manager).
+
+⚠️ **Important:**
+- Once you leave the page, you won't be able to see the token again.
+- Do not share your token publicly or commit it to repositories.
+
 
 
 ## Conclusion
