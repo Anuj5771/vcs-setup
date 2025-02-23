@@ -137,10 +137,13 @@ In this Proof of Concept (PoC), we demonstrated the basic process of creating a 
 
 ## Contacts
 
-| Name            | Email Address                                |
-|-----------------|----------------------------------------------|
-| Anuj Yadav   | [(anuj.yadav@mygurukulam.co)] |
-| anuj169      | [(https://github.com/anuj169/Zero_Downtime_Crew/tree/main)] |
+## Contacts
+
+| Name        | Email Address                               |
+|-------------|---------------------------------------------|
+| Anuj Yadav  | [anuj.yadav@mygurukulam.co](mailto:anuj.yadav@mygurukulam.co) |
+| anuj169     | [GitHub - Zero Downtime Crew](https://github.com/anuj169/Zero_Downtime_Crew/tree/main) |
+
 
 ## References
 
