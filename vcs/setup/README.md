@@ -74,26 +74,6 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 
 ![image](https://github.com/user-attachments/assets/56679ec3-f0ca-4e1a-94e0-1cc4ec0371b1)
 
-## Set up Local Repository
-
-1. **Create a new directory for your repository**:
-  
-```bash
-mkdir vcs-setup-repo
-cd vcs-setup-repo/
-echo "# vcs-setup-poc-" >> README.md
-git init
-git add README.md
-git status
-git commit -m "this is my first vcs setup"
-git branch -M main
-git remote add origin https://github.com/devneelesh921/vcs-setup-poc-.git
-git push -u origin main
-cd .ssh
-cat id_rsa.pub
-git remote add sshorigin git@github.com:devneelesh921/vcs-setup-poc-.git
-git push sshorigin main
-```
 
 ### Generating a Personal Access Token (PAT) on GitHub
 
@@ -123,11 +103,33 @@ Follow these steps to generate a Personal Access Token (PAT) on GitHub:
    - Click **Generate token**.
    - **Copy the token** immediately and store it securely (e.g., in a password manager).
 
-⚠️ **Important:**
+- **Important:**
 - Once you leave the page, you won't be able to see the token again.
 - Do not share your token publicly or commit it to repositories.
 
+![image](https://github.com/user-attachments/assets/c9b214d3-596e-40c0-a3f3-eca5363a152c)
 
+![image](https://github.com/user-attachments/assets/ab8b66e5-39b8-4541-a54d-162ac40b018c)
+![image](https://github.com/user-attachments/assets/9dd873b2-d5a6-4806-8416-eeb7cbecb9b0)
+![image](https://github.com/user-attachments/assets/c7d8c53a-4cf9-41c2-b6d0-8c02295c0e11)
+
+
+```bash
+mkdir vcs-setup-repo
+ cd vcs-setup-repo/
+ echo "# vcs-setup-poc-" >> README.md
+ git init
+ git add README.md 
+ git status
+ git commit -m "this is my first vcs setup"
+ git branch -M main
+ git remote add origin https://github.com/anuj169/Zero_Downtime_Crew.git
+git remote set-url origin https://<NEW_TOKEN>@github.com/anuj169/Zero_Downtime_Crew.git
+git add .
+git commit -m "update the file"
+git push origin main
+
+```
 
 ## Conclusion
 
@@ -137,8 +139,8 @@ In this Proof of Concept (PoC), we demonstrated the basic process of creating a 
 
 | Name            | Email Address                                |
 |-----------------|----------------------------------------------|
-| Anuj Yadav   | [) |
-| anuj5771921   | [() |
+| Anuj Yadav   | [(anuj.yadav@mygurukulam.co)] |
+| anuj169      | [(https://github.com/anuj169/Zero_Downtime_Crew/tree/main)] |
 
 ## References
 
