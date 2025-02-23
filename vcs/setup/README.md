@@ -49,11 +49,11 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
   ```bash
   choco install git
  ```
-- **macOS (using Homebrew):**
 
- ```bash
+- **macOS (using Homebrew):**
+  ```bash
   brew install git
-```
+ ```
 
   **Ubuntu**
 ```bash
