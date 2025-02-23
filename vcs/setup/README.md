@@ -28,11 +28,6 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 | **Disk**  | 8 GB free space | 20 GB free space |
 | **OS**    | Windows 10, macOS 10.14, Ubuntu 18.04 or later | Latest stable version of your preferred OS |
 
-## Dependencies
-| Name | Version | Description |
-|------|---------|-------------|
-| **Git** | 2.34 | Distributed version control system |
-
 
 ## Dependencies
 
@@ -42,7 +37,9 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 
 
 ## Architecture
-Overview of architecture.
+
+
+
 
 ## Step-by-step installation of GitHub
 
@@ -52,19 +49,23 @@ Overview of architecture.
   ```bash
   choco install git
  ```
-- ** macOS (using Homebrew):
+- **macOS (using Homebrew):**
 
+ ```bash
   brew install git
+```
 
-  Ubuntu:
-sudo apt-get update
+  **Ubuntu**
+```bash
+  sudo apt-get update
 sudo apt-get install git
 
+```
 
 ## Create a GitHub Account and Repository
 
 ### 1. Create a GitHub account
-- Go to [github.com](https://github.com) and sign up for a new account.
+- Go to [github.com]() and sign up for a new account.
 
 ### 2. Create a new repository on GitHub:
 - Click the "+ or add new" icon in the top-right corner.
@@ -78,10 +79,10 @@ sudo apt-get install git
 ## Set up Local Repository
 
 1. **Create a new directory for your repository**:
-   ```bash
-   mkdir vcs-setup-repo
-   cd vcs-setup-repo/
-
+  
+```bash
+mkdir vcs-setup-repo
+cd vcs-setup-repo/
 echo "# vcs-setup-poc-" >> README.md
 git init
 git add README.md
@@ -94,6 +95,7 @@ cd .ssh
 cat id_rsa.pub
 git remote add sshorigin git@github.com:devneelesh921/vcs-setup-poc-.git
 git push sshorigin main
+```
 
 
 ## Conclusion
