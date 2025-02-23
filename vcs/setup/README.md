@@ -40,7 +40,6 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 
 
 
-
 ## Step-by-step installation of GitHub
 
 ### Install Git:
@@ -48,18 +47,15 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 - **Windows (using Chocolatey):**
   ```bash
   choco install git
- ```
 
 - **macOS (using Homebrew):**
-  ```bash
-  brew install git
- ```
-
-  **Ubuntu**
+```bash
+brew install git
+```
+- **Ubuntu**
 ```bash
   sudo apt-get update
 sudo apt-get install git
-
 ```
 
 ## Create a GitHub Account and Repository
