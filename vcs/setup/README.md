@@ -50,12 +50,12 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 
 - **macOS (using Homebrew):**
 ```bash
-brew install git
+ brew install git
 ```
 - **Ubuntu**
 ```bash
   sudo apt-get update
-sudo apt-get install git
+  sudo apt-get install git
 ```
 
 ## Create a GitHub Account and Repository
