@@ -58,6 +58,8 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
   sudo apt-get update
   sudo apt-get install git
   ```
+![image](https://github.com/user-attachments/assets/2cc8284b-5bdd-4995-94cd-04e66de25b36)
+
 
 ## Create a GitHub Account and Repository
 
