@@ -38,6 +38,7 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 
 ## Architecture
 
+![image](https://github.com/user-attachments/assets/d9d3717a-1f72-4c63-8a1a-cecda88cec06)
 
 
 ## Step-by-step installation of GitHub
@@ -49,14 +50,14 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
   choco install git
 
 - **macOS (using Homebrew):**
-```bash
+  ```bash
   brew install git
-```
+  ```
 - **Ubuntu**
-```bash
+  ```bash
   sudo apt-get update
   sudo apt-get install git
-```
+  ```
 
 ## Create a GitHub Account and Repository
 
