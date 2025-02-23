@@ -94,11 +94,8 @@ cat id_rsa.pub
 git remote add sshorigin git@github.com:devneelesh921/vcs-setup-poc-.git
 git push sshorigin main
 ```
-## Configure Git using Token Setup
-### Generate a GitHub Personal Access Token
 
-
-# Generating a Personal Access Token (PAT) on GitHub
+### Generating a Personal Access Token (PAT) on GitHub
 
 Follow these steps to generate a Personal Access Token (PAT) on GitHub:
 
