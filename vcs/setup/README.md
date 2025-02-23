@@ -60,7 +60,6 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
   ```
 ![image](https://github.com/user-attachments/assets/2cc8284b-5bdd-4995-94cd-04e66de25b36)
 
-
 ## Create a GitHub Account and Repository
 
 ### 1. Create a GitHub account
@@ -73,7 +72,7 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 - Choose **Private** if you want to keep the repository private.
 - Click **Create repository**.
 
-
+![image](https://github.com/user-attachments/assets/56679ec3-f0ca-4e1a-94e0-1cc4ec0371b1)
 
 ## Set up Local Repository
 
