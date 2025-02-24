@@ -99,6 +99,6 @@ License scanning is important for making sure your software follows legal rules 
 
 | Tool        | Link                                                 |
 |-------------|------------------------------------------------------|
-| [FOSSA]     | [https://fossa.com/fossa-developers](https://fossa.com/fossa-developers) |
-| [Black Duck]| [https://www.blackduck.com/#](https://www.blackduck.com/#) |
-| [WhiteSource]| [https://www.mend.io/mend-container/](https://www.mend.io/mend-container/) |
+| [FOSSA]     | [fossa](https://fossa.com/fossa-developers) |
+| [Black Duck]| [Black Duck](https://www.blackduck.com/#) |
+| [WhiteSource]| [WhiteSource](https://www.mend.io/mend-container/) |
