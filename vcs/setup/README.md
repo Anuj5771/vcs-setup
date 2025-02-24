@@ -58,28 +58,28 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
   sudo apt-get update
   sudo apt-get install git
   ```
-![image](https://github.com/user-attachments/assets/2cc8284b-5bdd-4995-94cd-04e66de25b36)
+  ![image](https://github.com/user-attachments/assets/2cc8284b-5bdd-4995-94cd-04e66de25b36)
 
-## Create a GitHub Account and Repository
+ ## Create a GitHub Account and Repository
 
-### 1. Create a GitHub account
-- Go to [github.com]() and sign up for a new account.
+ ### 1. Create a GitHub account
+ - Go to [github.com]() and sign up for a new account.
 
-### 2. Create a new repository on GitHub:
-- Click the "+ or add new" icon in the top-right corner.
-- Select **New repository**.
-- Name your repository.
-- Choose **Private** if you want to keep the repository private.
-- Click **Create repository**.
+ 2. Create a new repository on GitHub:
+ - Click the "+ or add new" icon in the top-right corner.
+ - Select **New repository**.
+ - Name your repository.
+ - Choose **Private** if you want to keep the repository private.
+ - Click **Create repository**.
 
-![image](https://github.com/user-attachments/assets/56679ec3-f0ca-4e1a-94e0-1cc4ec0371b1)
+ ![image](https://github.com/user-attachments/assets/56679ec3-f0ca-4e1a-94e0-1cc4ec0371b1)
 
 
-### Generating a Personal Access Token (PAT) on GitHub
+ ### Generating a Personal Access Token (PAT) on GitHub
 
-Follow these steps to generate a Personal Access Token (PAT) on GitHub:
+ Follow these steps to generate a Personal Access Token (PAT) on GitHub:
 
-1. **Go to GitHub Settings**
+ 1. **Go to GitHub Settings**
    - Navigate to [GitHub](https://github.com/) and click on your profile picture in the top right corner.
    - Select **Settings** from the dropdown menu.
 
