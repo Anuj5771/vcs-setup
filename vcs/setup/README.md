@@ -107,13 +107,14 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 - Once you leave the page, you won't be able to see the token again.
 - Do not share your token publicly or commit it to repositories.
 
-![image](https://github.com/user-attachments/assets/c9b214d3-596e-40c0-a3f3-eca5363a152c)
 
 ![image](https://github.com/user-attachments/assets/ab8b66e5-39b8-4541-a54d-162ac40b018c)
 
 ![image](https://github.com/user-attachments/assets/1aeb2a91-ce21-42fa-9b42-546042292b69)
 
 ![image](https://github.com/user-attachments/assets/14756319-a3d0-4b7a-b96f-88affaf74cb3)
+
+![image](https://github.com/user-attachments/assets/67d73aaa-6b05-4ccc-9077-0a7d6ccb02a1)
 
 ### Setting Up and Pushing First Commit to GitHub Repository
 ```bash
