@@ -106,12 +106,16 @@ Follow these steps to generate a Personal Access Token (PAT) on GitHub:
 - **Important:**
 - Once you leave the page, you won't be able to see the token again.
 - Do not share your token publicly or commit it to repositories.
+![image](https://github.com/user-attachments/assets/d9d4a1c9-f71f-4a2c-a98e-96bbabe0f92a)
 
 ![image](https://github.com/user-attachments/assets/c9b214d3-596e-40c0-a3f3-eca5363a152c)
 
 ![image](https://github.com/user-attachments/assets/ab8b66e5-39b8-4541-a54d-162ac40b018c)
-![image](https://github.com/user-attachments/assets/9dd873b2-d5a6-4806-8416-eeb7cbecb9b0)
+
 ![image](https://github.com/user-attachments/assets/1aeb2a91-ce21-42fa-9b42-546042292b69)
+
+![image](https://github.com/user-attachments/assets/14756319-a3d0-4b7a-b96f-88affaf74cb3)
+
 
 ```bash
  mkdir vcs-setup-repo
