@@ -58,6 +58,10 @@ License scanning checks the software used in a project to find out which license
 - **Easy to Use**: Simple interface and smooth integration with CI/CD tools.
 - **Ongoing Monitoring**: Continuously tracks license changes, helping maintain compliance over time.
 
+
+- To demonstrate license scanning, we have created a simple POC using FOSSA. Follow the steps below to understand how license scanning works: [License Scanning POC with FOSSA]()
+
+
 ## Advantages and Disadvantages
 
 | **Advantages**                                   | **Disadvantages**                                  |
