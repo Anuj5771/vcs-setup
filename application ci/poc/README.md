@@ -1,6 +1,7 @@
 # Proof of Concept: FOSSA
 
-![FOSSA Logo](https://raw.githubusercontent.com/username/repo/main/path/to/image.png)
+![image](https://github.com/user-attachments/assets/0124f761-2ad6-4c46-af30-2564596bb5e6)
+
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Internal Reviewer** | **Reviewer L0** | **Reviewer L1** | **Reviewer L2** |
 |------------|--------------|-------------|----------------|-----------------|-------------|-------------|-------------|
