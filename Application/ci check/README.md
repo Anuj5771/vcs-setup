@@ -60,33 +60,17 @@ License scanning checks the software used in a project to find out which license
 
 ## Advantages and Disadvantages
 
-### Advantages
+| **Advantages**                                   | **Disadvantages**                                  |
+|--------------------------------------------------|---------------------------------------------------|
+| Ensures legal compliance                         | Risk of misidentification of licenses             |
+| Identifies license types                         | Potential overhead from excessive alerts          |
+| Reduces legal risks                              | Challenges in license interpretation              |
+| Automated scanning                               | Requires tool updates and maintenance             |
+| Centralized documentation                       | Dependency management can be complex              |
+| Facilitates informed decision-making             | Doesn't address all compliance issues             |
+| Streamlines open-source strategy                 | Partial coverage of some edge cases               |
+| Seamless integration with CI/CD pipelines        | Financial investment for comprehensive tools      |
 
-| Advantage                                    |
-|----------------------------------------------|
-| Ensures legal compliance                     |
-| Identifies license types                     |
-| Reduces legal risks                          |
-| Automated scanning                           |
-| Centralized documentation                   |
-| Facilitates informed decision-making         |
-| Streamlines open-source strategy             |
-| Seamless integration with CI/CD pipelines    |
-
-### Disadvantages
-
-| Disadvantage                                 |
-|----------------------------------------------|
-| Risk of misidentification of licenses       |
-| Potential overhead from excessive alerts    |
-| Challenges in license interpretation        |
-| Requires tool updates and maintenance       |
-| Dependency management can be complex        |
-| Doesn't address all compliance issues       |
-| Partial coverage of some edge cases         |
-| Financial investment for comprehensive tools|
-
-## Best Practices
 
 ## Best Practices
 
@@ -106,10 +90,10 @@ License scanning is important for making sure your software follows legal rules 
 
 ## Contact Information
 
-| Name           | Email Address                                        |
-|----------------|------------------------------------------------------|
-| Neelesh Kumar  |                  |
-| GitHub         | [anuj169]()    |
+| Name        | Email Address                          |
+|-------------|----------------------------------------|
+| Anuj Yadav  | anuj.yadav@mygurukulam.co              |
+| GitHub      | [anuj169](https://github.com/anuj169)  |
 
 ## References
 
