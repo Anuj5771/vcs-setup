@@ -106,7 +106,6 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 - **Important:**
 - Once you leave the page, you won't be able to see the token again.
 - Do not share your token publicly or commit it to repositories.
-![image](https://github.com/user-attachments/assets/d9d4a1c9-f71f-4a2c-a98e-96bbabe0f92a)
 
 ![image](https://github.com/user-attachments/assets/c9b214d3-596e-40c0-a3f3-eca5363a152c)
 
