@@ -8,7 +8,7 @@
 - [Architecture](#architecture)
 - [Step-by-step installation of GitHub](#step-by-step-installation-of-github)
 - [Conclusion](#conclusion)
-- [Contact Information](#contact-information)
+- [Contacts](#Contacts)
 - [References](#references)
 
 ## Purpose
@@ -138,19 +138,17 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
 
 In this Proof of Concept (PoC), we demonstrated the basic process of creating a repository, cloning it, and pushing changes. This workflow allows developers to track modifications, collaborate smoothly, and ensure an organized approach to managing project files and updates. By following these steps, teams can streamline their development efforts and enhance productivity across the board.
 
-## Contacts
 
 ## Contacts
 
-| Name        | Email Address                               |
-|-------------|---------------------------------------------|
-| Anuj Yadav  | [anuj.yadav@mygurukulam.co](mailto:anuj.yadav@mygurukulam.co) |
-| anuj169     | [https://github.com/anuj169) |
-
+| Name        | Email Address                                      |
+|-------------|----------------------------------------------------|
+| Anuj Yadav  | [anuj.yadav@mygurukulam.co](anuj.yadav@mygurukulam.co) |
+| anuj169     | [anuj169 GitHub](https://github.com/anuj169)       |
 
 ## References
 
 | Links                                                                                       | Description     |
 |---------------------------------------------------------------------------------------------|-----------------|
-| [https://www.geeksforgeeks.org/introduction-to-bitbucket/?ref=ml_lbp#what-is-bitbucket) | For Bitbucket   |
-| [https://www.geeksforgeeks.org/what-is-github-and-how-to-use-it/)     | For GitHub      |
+| [Bitbucket](https://www.geeksforgeeks.org/introduction-to-bitbucket/?ref=ml_lbp#what-is-bitbucket) | For Bitbucket   |
+| [GitHub](https://www.geeksforgeeks.org/what-is-github-and-how-to-use-it/)     | For GitHub      |
