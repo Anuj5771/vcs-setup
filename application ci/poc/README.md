@@ -4,6 +4,16 @@
 |------------|---------------------------|-------------|---------------------|-------------|-------------|-------------|-------------|
 | Anuj yadav|   24-02-2025             | v1.1          | Anuj yadav     |  Siddharth pawar | Tarun Singh  | Abhishek  | Abhishek Dubey|     
 
+# Table of Contents
+1. [FOSSA Integration Setup](#fossa-integration-setup)
+   - [Pre-requisites](#pre-requisites)
+   - [System Requirements](#system-requirements)
+2. [Setup and Configuration](#setup-and-configuration)
+   - [Install FOSSA CLI](#install-fossa-cli)
+   - [Authenticate the FOSSA CLI](#authenticate-the-fossa-cli)
+3. [Integrate License Scanning in the Project](#integrate-license-scanning-in-the-project)
+4. [Run FOSSA Analysis Locally](#run-fossa-analysis-locally)
+
 
 # FOSSA Integration Setup
 
