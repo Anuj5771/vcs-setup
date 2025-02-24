@@ -1,5 +1,8 @@
 # Proof of Concept: FOSSA
 
+![image](https://github.com/user-attachments/assets/86a0c88f-ce68-4109-a516-6845510dd535)
+
+
 | **Author** | **Created on** | **Version** | **Last updated by** | **Internal Reviewer** | **Reviewer L0** | **Reviewer L1** | **Reviewer L2** |
 |------------|--------------|-------------|----------------|-----------------|-------------|-------------|-------------|
 | Anuj Yadav | 24-02-2025   | v1.1        | Anuj Yadav     | Siddharth Pawar | Tarun Singh | Abhishek    | Abhishek Dubey |
@@ -34,12 +37,15 @@ cd attendance-api
 
 ## Setup and Configuration
 
-### Install FOSSA CLI
+### Install and Verify FOSSA CLI Installation
+
 To install the FOSSA CLI globally using npm:
 
 ```bash
 npm install -g fossa-cli
+fossa --vesion
 ```
+- The installed FOSSA CLI version is 3.10.0 (revision 494e2795cf9f, compiled with GHC 9.8).
 
 ### Authenticate the FOSSA CLI
 
@@ -48,7 +54,8 @@ npm install -g fossa-cli
 2. Navigate to **Settings → API Keys**.
 3. Generate or copy your API token.
 
-#### Login to the CLI
+#### ### Authenticate FOSSA CLI with Your API Token
+
 Once you have the API token, run the following command to authenticate the FOSSA CLI:
 
 ```bash
@@ -60,7 +67,6 @@ fossa login --token <your-api-token>
 ```bash
 fossa init
 ```
-
 This command initializes your project with FOSSA by setting up the necessary configuration files and preparing it for dependency and license analysis.
 
 ## Integrate License Scanning in the Project
@@ -70,13 +76,13 @@ To scan your project’s dependencies for license compliance, ensure your projec
 ```bash
 fossa analyze
 ```
+![image](https://github.com/user-attachments/assets/e215f0a3-421a-4eeb-ac0d-806fc0252003)
 
-## Run FOSSA Analysis Locally
 
-Execute the CLI to analyze your project dependencies:
+### 20. Contact
+| Name | Email Address | GitHub | URL |
+|------|--------------|--------|-----|
+| Anuj Yadav | anuj.yadav@mygurukulam.co | [anuj169](https://github.com/anuj169) | https://github.com/anuj169 |
 
-```bash
-fossa analyze
-```
 
-- Review the analysis results in your terminal or the FOSSA dashboard.
+
