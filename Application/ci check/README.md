@@ -1,5 +1,10 @@
 # License Scanning
 
+| **Author** | **Created on** | **Version** | **Last updated by**|**Internal Reviewer** |**Reviewer L0** |**Reviewer L1** |**Reviewer L2** |
+|------------|---------------------------|-------------|---------------------|-------------|-------------|-------------|-------------|
+| Anuj yadav|   24-02-2025             | v1.1          | Anuj yadav     |  Siddharth pawar | Tarun Singh  | Abhishek  | Abhishek Dubey|     
+
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Why License Scanning?](#why-license-scanning)
