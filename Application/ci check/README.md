@@ -14,92 +14,95 @@
 
 ## Introduction
 
-License scanning analyzes and identifies software licenses associated with code or components in a project. It helps ensure that the software you're using is compliant with the necessary legal and licensing requirements.
+License scanning checks the software used in a project to find out which licenses are attached to the code or components. It helps make sure that the software you’re using follows the legal rules and requirements of those licenses.
 
 ## Why License Scanning?
 
-License scanning is essential for the following reasons:
-
-- **Legal Compliance**: Ensures compliance with license terms and conditions.
-- **OSS Management**: Identifies and manages licenses in open-source components.
-- **Risk Mitigation**: Identifies legal risks associated with specific licenses.
-- **Intellectual Property Protection**: Ensures compliance with license terms and safeguards your intellectual property.
-- **Security and Quality Assurance**: Evaluates the security, quality, and reputation of components used in the project.
+- **Legal Compliance**: Makes sure you’re following the rules of the software licenses.
+- **Managing Open-Source Software (OSS)**: Helps track and manage the licenses of open-source components you use.
+- **Risk Reduction**: Identifies potential legal issues related to certain licenses.
+- **Protecting Your Work**: Ensures you’re following the rules to protect your own intellectual property.
+- **Security and Quality**: Checks the security, quality, and trustworthiness of the components in your project.
 
 ## License Scanning Tools
 
-Here are some popular license scanning tools:
 
-| Tool       | Description                                                       |
-|------------|-------------------------------------------------------------------|
-| FOSSA      | Comprehensive license compliance and dependency analysis tool.   |
-| Black Duck | Open-source security and license compliance solution.             |
-| WhiteSource| Manages open-source components and license compliance.            |
-| JFrog Xray | Artifact analysis for security and license compliance.           |
-| FOSSology  | Open-source license compliance software system.                   |
+| Tool        | Description                                                           |
+|-------------|-----------------------------------------------------------------------|
+| FOSSA       | A tool that helps manage license compliance and analyze dependencies. |
+| Black Duck  | A solution for managing open-source security and license compliance.  |
+| WhiteSource | Helps track open-source components and ensure license compliance.     |
+| JFrog Xray  | Analyzes artifacts for both security risks and license compliance.    |
+| FOSSology   | A system for open-source license compliance management.               |
 
 ## Tool Comparison
 
-A comparison of key features of some popular license scanning tools:
+| Feature / Aspect        | FOSSA                             | Black Duck                        | FOSSology                        |
+|-------------------------|-----------------------------------|-----------------------------------|----------------------------------|
+| License Detection       | Detects licenses across many languages | Detects licenses across multiple languages and package managers | Focuses mainly on source code license detection |
+| Vulnerability Scanning  | Scans for open-source dependency issues | Identifies security vulnerabilities in open-source components | Primarily for license detection; no security scanning |
+| Integration             | Works well with CI/CD tools and workflows | Integrates with popular DevOps tools | Supports custom integrations through APIs |
+| Ease of Use             | Easy-to-use interface             | Mostly user-friendly              | Requires more technical knowledge |
+| Community Support       | Active support with regular updates | Strong support from Synopsys     | Open-source with community-based support |
+| Scalability             | Works for projects of all sizes   | Suited for enterprise-scale projects | Best for small to mid-sized projects |
+| Customization           | Flexible reporting and policy options | Customizable policies and reports | Requires more technical work for customization |
+| Cost (Free Elements)    | Free version with limited features | Mainly commercial, but offers trials | Free open-source version, but support may cost extra |
 
-| Feature / Aspect        | FOSSA                              | Black Duck                        | FOSSology                        |
-|-------------------------|------------------------------------|-----------------------------------|----------------------------------|
-| License Detection       | Comprehensive across multiple languages | Extensive across various languages and managers | Focuses on source code analysis |
-| Vulnerability Scanning  | Open-source dependency scanning    | Identifies vulnerabilities in OSS components | Primarily license analysis, lacks security scanning |
-| Integration             | Supports CI/CD tools, multiple workflows | Integrates with popular DevOps tools | Supports custom integrations through APIs |
-| Ease of Use             | User-friendly interface            | Generally user-friendly           | More technical interface        |
-| Community Support       | Active community support, regular updates | Strong support, backed by Synopsys | Open-source with community contributions |
-| Scalability             | Scales for various project sizes   | Enterprise-level scalability      | Suitable for small to mid-sized projects |
-| Customization           | Flexible in reporting and policies | Customizable policies and reporting | Customization requires more technical expertise |
-| Cost (Free Elements)    | Free version with limited features | Primarily commercial with trial options | Open-source; support costs may apply |
 
 ## Tool Recommendation
 
-**FOSSA** is recommended due to the following reasons:
+**FOSSA** is recommended for the following reasons:
 
-- **Multi-language Support**: Comprehensive license detection across multiple programming languages.
-- **Vulnerability Scanning**: Robust scanning capabilities for identifying security risks.
-- **User-Friendly Interface**: Easy navigation and seamless integration with CI/CD tools.
-- **Continuous Monitoring**: Tracks and monitors changes in licenses over time for proactive compliance.
+- **Supports Multiple Languages**: Detects licenses across many different programming languages.
+- **Security Scanning**: Effectively identifies potential security risks in your dependencies.
+- **Easy to Use**: Simple interface and smooth integration with CI/CD tools.
+- **Ongoing Monitoring**: Continuously tracks license changes, helping maintain compliance over time.
 
 ## Advantages and Disadvantages
 
 ### Advantages
 
-- Ensures legal compliance
-- Identifies license types
-- Reduces legal risks
-- Automated scanning
-- Centralized documentation
-- Facilitates informed decision-making
-- Streamlines open-source strategy
-- Seamless integration with CI/CD pipelines
+| Advantage                                    |
+|----------------------------------------------|
+| Ensures legal compliance                     |
+| Identifies license types                     |
+| Reduces legal risks                          |
+| Automated scanning                           |
+| Centralized documentation                   |
+| Facilitates informed decision-making         |
+| Streamlines open-source strategy             |
+| Seamless integration with CI/CD pipelines    |
 
 ### Disadvantages
 
-- Risk of misidentification of licenses
-- Potential overhead from excessive alerts
-- Challenges in license interpretation
-- Requires tool updates and maintenance
-- Dependency management can be complex
-- Doesn't address all compliance issues
-- Partial coverage of some edge cases
-- Financial investment for comprehensive tools
+| Disadvantage                                 |
+|----------------------------------------------|
+| Risk of misidentification of licenses       |
+| Potential overhead from excessive alerts    |
+| Challenges in license interpretation        |
+| Requires tool updates and maintenance       |
+| Dependency management can be complex        |
+| Doesn't address all compliance issues       |
+| Partial coverage of some edge cases         |
+| Financial investment for comprehensive tools|
 
 ## Best Practices
 
-To get the most out of license scanning, follow these best practices:
+## Best Practices
 
-- **Start Early**: Integrate license scanning early in the development lifecycle.
-- **Update Databases**: Regularly update the license databases.
-- **Integrate with CI/CD**: Automate scans within the development workflow.
-- **Automate Workflows**: Use automated workflows for license approval.
-- **Regular Audits**: Regularly audit your codebase for new dependencies.
-- **Monitor License Changes**: Track changes to licenses as the project evolves.
+| Best Practice              | Description                                           |
+|----------------------------|-------------------------------------------------------|
+| Start Early                | Begin license scanning early in the development process. |
+| Update Databases           | Keep license databases up to date regularly.          |
+| Integrate with CI/CD       | Automate license scans within the CI/CD workflow.     |
+| Automate Workflows         | Use automated workflows for license approval.        |
+| Regular Audits             | Regularly audit the codebase for new dependencies.    |
+| Monitor License Changes    | Track license changes as the project evolves.        |
+
 
 ## Conclusion
 
-License scanning is essential for ensuring legal compliance and mitigating risks in software development. By automating the scanning process, teams can streamline compliance and security, allowing developers to focus on creating high-quality software.
+License scanning is important for making sure your software follows legal rules and reduces risks in development. Automating the process helps teams stay compliant and secure, so developers can focus on building great software.
 
 ## Contact Information
 
