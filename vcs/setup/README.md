@@ -145,13 +145,12 @@ In this Proof of Concept (PoC), we demonstrated the basic process of creating a 
 | Name        | Email Address                               |
 |-------------|---------------------------------------------|
 | Anuj Yadav  | [anuj.yadav@mygurukulam.co](mailto:anuj.yadav@mygurukulam.co) |
-| anuj169     | [GitHub - Zero Downtime Crew](https://github.com/anuj169/Zero_Downtime_Crew/tree/main) |
+| anuj169     | [https://github.com/anuj169) |
 
 
 ## References
 
 | Links                                                                                       | Description     |
 |---------------------------------------------------------------------------------------------|-----------------|
-| [Introduction to Bitbucket](https://www.geeksforgeeks.org/introduction-to-bitbucket/?ref=ml_lbp) | For Bitbucket   |
-| [Introduction to GitHub](https://www.geeksforgeeks.org/introduction-to-github/?ref=ml_lbp)     | For GitHub      |
-| [GitLab Introduction](https://www.tutorialspoint.com/gitlab/gitlab_introduction.htm)           | For GitLab      |
+| [https://www.geeksforgeeks.org/introduction-to-bitbucket/?ref=ml_lbp#what-is-bitbucket) | For Bitbucket   |
+| [https://www.geeksforgeeks.org/what-is-github-and-how-to-use-it/)     | For GitHub      |
