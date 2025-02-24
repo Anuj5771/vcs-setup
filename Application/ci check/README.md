@@ -97,7 +97,6 @@ License scanning is important for making sure your software follows legal rules 
 
 ## References
 
-- [FOSSA](https://fossa.com)
-- [Black Duck](https://www.blackducksoftware.com)
-- [POC](https://github.com/avengers-p11/Documentation/blob/main/Application%20CI%20Design/Generic%20CI%20operation/Licence%20scanning/POC.md)
-- [WhiteSource](https://www.whitesourcesoftware.com)
+- [FOSSA](https://fossa.com/fossa-developers)
+- [Black Duck](https://www.blackduck.com/#)
+- [WhiteSource](https://www.mend.io/mend-container/)
