@@ -93,7 +93,7 @@ This POC shows how to set up and use GitHub as a Version Control System (VCS). G
    - Set an **expiration date** (or choose "No expiration" if preferred).
 
 4. **Select Necessary Scopes**
-   - Choose the required scopes based on your needs:
+    - Choose the required scopes based on your needs:
      - `repo` (Full control of private repositories)
      - `workflow` (Access to GitHub Actions workflows)
      - `admin:repo_hook` (Manage repository webhooks and services)
