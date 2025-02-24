@@ -1,15 +1,13 @@
 # Proof of Concept: FOSSA
 
-![image](https://github.com/user-attachments/assets/86a0c88f-ce68-4109-a516-6845510dd535)
-
+![FOSSA Logo](https://raw.githubusercontent.com/username/repo/main/path/to/image.png)
 
 | **Author** | **Created on** | **Version** | **Last updated by** | **Internal Reviewer** | **Reviewer L0** | **Reviewer L1** | **Reviewer L2** |
 |------------|--------------|-------------|----------------|-----------------|-------------|-------------|-------------|
 | Anuj Yadav | 24-02-2025   | v1.1        | Anuj Yadav     | Siddharth Pawar | Tarun Singh | Abhishek    | Abhishek Dubey |
 
 ## Table of Contents
-1. [Clone the Repository and Navigate to the Project Directory
-](#clone-the-repository-and-navigate-to-the-project-directory)
+1. [Clone the Repository and Navigate to the Project Directory](#clone-the-repository-and-navigate-to-the-project-directory)
    - [Pre-requisites](#pre-requisites)
    - [System Requirements](#system-requirements)
 2. [Setup and Configuration](#setup-and-configuration)
@@ -43,8 +41,9 @@ To install the FOSSA CLI globally using npm:
 
 ```bash
 npm install -g fossa-cli
-fossa --vesion
+fossa --version
 ```
+
 - The installed FOSSA CLI version is 3.10.0 (revision 494e2795cf9f, compiled with GHC 9.8).
 
 ### Authenticate the FOSSA CLI
@@ -54,7 +53,7 @@ fossa --vesion
 2. Navigate to **Settings → API Keys**.
 3. Generate or copy your API token.
 
-#### ### Authenticate FOSSA CLI with Your API Token
+#### Authenticate FOSSA CLI with Your API Token
 
 Once you have the API token, run the following command to authenticate the FOSSA CLI:
 
@@ -67,6 +66,7 @@ fossa login --token <your-api-token>
 ```bash
 fossa init
 ```
+
 This command initializes your project with FOSSA by setting up the necessary configuration files and preparing it for dependency and license analysis.
 
 ## Integrate License Scanning in the Project
@@ -76,13 +76,19 @@ To scan your project’s dependencies for license compliance, ensure your projec
 ```bash
 fossa analyze
 ```
-![image](https://github.com/user-attachments/assets/e215f0a3-421a-4eeb-ac0d-806fc0252003)
 
+## Run FOSSA Analysis Locally
 
-### 20. Contact
+To verify your dependencies and licenses locally before pushing to the repository, execute:
+
+```bash
+fossa test
+```
+
+## Contact
 | Name | Email Address | GitHub | URL |
 |------|--------------|--------|-----|
 | Anuj Yadav | anuj.yadav@mygurukulam.co | [anuj169](https://github.com/anuj169) | https://github.com/anuj169 |
 
-
+---
 
