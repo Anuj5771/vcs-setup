@@ -116,7 +116,7 @@ Follow these steps to generate a Personal Access Token (PAT) on GitHub:
 
 ![image](https://github.com/user-attachments/assets/14756319-a3d0-4b7a-b96f-88affaf74cb3)
 
-
+### Setting Up and Pushing First Commit to GitHub Repository
 ```bash
  mkdir vcs-setup-repo
  cd vcs-setup-repo/
