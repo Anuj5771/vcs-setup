@@ -8,8 +8,6 @@
 
 ## Table of Contents
 1. [Clone the Repository and Navigate to the Project Directory](#clone-the-repository-and-navigate-to-the-project-directory)
-   - [Pre-requisites](#pre-requisites)
-   - [System Requirements](#system-requirements)
 2. [Setup and Configuration](#setup-and-configuration)
    - [Install FOSSA CLI](#install-fossa-cli)
    - [Authenticate the FOSSA CLI](#authenticate-the-fossa-cli)
@@ -23,15 +21,6 @@ git clone https://github.com/snaatak-Zero-Downtime-Crew/attendance-api.git
 cd attendance-api
 ```
 
-## Pre-requisites
-- Node.js installed on your system
-- Access to the FOSSA dashboard
-- A valid FOSSA API token
-
-## System Requirements
-- OS: Windows, macOS, or Linux
-- Node.js: v14 or higher
-- Internet connection to authenticate and sync with FOSSA
 
 ## Setup and Configuration
 
